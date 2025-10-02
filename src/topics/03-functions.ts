@@ -16,10 +16,10 @@ interface Character {
     showHp: () => void;
 }
 
-//const result:number = addNumber(1,2)
-//const result2:string = addNumberArrow(2,3)
-//const multiplyResult:number = multiply(5);
-//console.log({result,result2, multiplyResult})
+const result:number = addNumber(1,2)
+const result2:string = addNumberArrow(2,3)
+const multiplyResult:number = multiply(5);
+console.log({result,result2, multiplyResult})
 
 const healCharacter = (character: Character, amount: number) => {
     character.hp += amount;
